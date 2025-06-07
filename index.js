@@ -1,0 +1,12 @@
+const os = require('os');
+console.log("\n");
+console.log("🚀 Mensaje ejecutándose desde dentro de Docker");
+console.log("\n");
+console.log("📅 Fecha actual:", new Date().toLocaleString());
+console.log("\n");
+console.log("💻 Sistema operativo:", os.type(), os.release());
+console.log("\n");
+console.log("🧠 Memoria libre:", (os.freemem() / 1024 / 1024).toFixed(2), "MB");
+console.log("\n");
+console.log("👤 Usuario actual:", os.userInfo().username);
+console.log("\n");
