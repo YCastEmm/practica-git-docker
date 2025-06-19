@@ -17,11 +17,9 @@ Este proyecto es parte de un trabajo práctico para repasar conceptos de Git y D
 ### 1. Cloná este repositorio
 
 ```bash
-git clone https://github.com/usuario/repositorio.git
-cd repositorio
+git clone https://github.com/YCastEmm/practica-git-docker
 ```
 
-> ⚠ Reemplazá `usuario/repositorio.git` por la URL real de tu repo.
 
 ---
 
